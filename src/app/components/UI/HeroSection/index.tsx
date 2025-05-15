@@ -2,8 +2,8 @@
 import Image from 'next/image';
 import { Wrapper, Inner, Pill, HeroTextContainer } from './styles';
 import ic_chevron_right from '../../../../public/svgs/ic_chevron_right.svg';
-import { GetStartedButton } from '@/app/components';
-import MaskText from '@/app/components/Common/MaskText';
+import GetStartedButton from '@/src/app/components/Common/GetStartedButton';
+import MaskText from '@/src/app/components/Common/MaskText';
 import { useIsMobile } from '../../../../lib/useIsMobile';
 import {
   mobileParagraphPhrases,

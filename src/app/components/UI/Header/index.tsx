@@ -12,7 +12,7 @@ import {
 } from './styles';
 import uwi_logo from '../../../../public/uwi_gpt_logo.svg';
 import ic_bars from '../../../../public/svgs/ic_bars.svg';
-import AnimatedLink from '@/app/components/Common/AnimatedLink';
+import AnimatedLink from '@/src/app/components/Common/AnimatedLink';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { links, menu } from './constants';

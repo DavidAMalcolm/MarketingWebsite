@@ -11,7 +11,7 @@ import {
 } from './styles';
 import Image from 'next/image';
 import ic_chevron_down from '../../../../public/svgs/ic_chevron_down.svg';
-import { MaskText } from '@/app/components';
+import { MaskText } from '@/src/app/components';
 import { useIsMobile } from '../../../../lib/useIsMobile';
 import {
   animate,

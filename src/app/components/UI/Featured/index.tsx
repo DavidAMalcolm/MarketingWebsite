@@ -3,7 +3,7 @@ import Image from 'next/image';
 import uwi_youths from '../../../../public/computer_lab.png';
 import featured_mobile_banner from '../../../../public/images/featured_mobile_banner.png';
 import { Wrapper, Inner, ImageContainer, Div } from './styles';
-import RevealCover from '@/app/components/Common/RevealCover';
+import RevealCover from '@/src/app/components/Common/RevealCover';
 import { useIsMobile } from '../../../../lib/useIsMobile';
 export const imageVariants = {
   hidden: {
