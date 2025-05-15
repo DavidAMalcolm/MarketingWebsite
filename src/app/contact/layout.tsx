@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function ContactLayout({ children }: { children: React.ReactNode }) {
   return (
-    <main className="min-h-screen bg-background text-foreground antialiased">
+    <main className="min-h-screen bg-white text-foreground antialiased">
       {children}
     </main>
   );
