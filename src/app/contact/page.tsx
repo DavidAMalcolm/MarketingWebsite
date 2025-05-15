@@ -16,7 +16,6 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Optional: add validation or API submission here
     setSubmitted(true);
   };
 
