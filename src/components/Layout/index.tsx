@@ -22,10 +22,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <StyledComponentsRegistry>
-      <ReactLenis
-        root
-        easing={(t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t))} // Custom scroll easing
-      >
+      <ReactLenis root>
         <GlobalStyles />
         <Preloader setComplete={setComplete} />
         <div className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
