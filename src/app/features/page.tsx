@@ -6,7 +6,7 @@ const rawPosts = [
     title: "Academic Advising",
     description: "Personalized course selection, degree planning, and academic goal setting for new and final year student.",
     date: "2025-05-01",
-    image: "/images/hand.jpg",
+    image: "/images/Hand.jpg",
     published: true,
     slug: "/features",
   },
