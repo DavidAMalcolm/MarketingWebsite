@@ -8,7 +8,7 @@ import {
   OfferCard,
   ImageCtn,
   TextCtn,
-} from './styles';
+} from '@/src/components/ui/OffersSection/styles';
 import MaskText from '@/src/components/Common/MaskText';
 import { useIsMobile } from '@/src/lib/useIsMobile';
 import {
@@ -16,7 +16,7 @@ import {
   desktopParagraphPhrase,
   mobileParagraphPhrase,
   offers,
-} from './constants';
+} from '@/src/components/ui/OffersSection/constants';
 
 const OffersSection = () => {
   const isMobile = useIsMobile();

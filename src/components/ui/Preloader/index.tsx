@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import ic_import from '../../../../public/svgs/ic_import.svg';
 
-import { Wrapper, Inner, SecondOverlay } from './styles';
+import { Wrapper, Inner, SecondOverlay } from '@/src/components/ui/Preloader/styles';
 import { Dispatch, SetStateAction, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
