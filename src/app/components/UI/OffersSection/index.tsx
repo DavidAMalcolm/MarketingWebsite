@@ -9,7 +9,7 @@ import {
   ImageCtn,
   TextCtn,
 } from './styles';
-import MaskText from '@/app/components/Common/MaskText';
+import MaskText from '@/src/app/components/Common/MaskText';
 import { useIsMobile } from '../../../../lib/useIsMobile';
 import {
   desktopHeaderPhrases,
