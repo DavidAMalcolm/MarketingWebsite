@@ -2,8 +2,8 @@
 import Image from 'next/image';
 import uwi_youths from '../../../../public/computer_lab.png';
 import featured_mobile_banner from '../../../../public/images/featured_mobile_banner.png';
-import { Wrapper, Inner, ImageContainer, Div } from './styles';
-import RevealCover from '@/src/components/common/RevealCover';
+import { Wrapper, Inner, ImageContainer, Div } from '@/src/components/ui/Featured/styles';
+import RevealCover from '@/src/components/Common/RevealCover';
 import { useIsMobile } from '@/src/lib/useIsMobile';
 export const imageVariants = {
   hidden: {
