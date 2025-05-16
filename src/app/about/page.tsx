@@ -38,7 +38,7 @@ export default function AboutPage() {
         <div className="bg-[#111] p-6 rounded-xl shadow-sm hover:shadow-md transition">
           <h2 className="text-2xl font-semibold mb-3 text-purple-300">🌍 Built for UWI</h2>
           <p className="text-gray-400">
-            Created with UWI students in mind — localized for regional relevance, structured for Caribbean curricula, and tuned to reflect our vibrant academic culture.
+            Created with UWI students in mind, localized for regional relevance, structured for Caribbean curricula, and tuned to reflect our vibrant academic culture.
           </p>
         </div>
       </div>
