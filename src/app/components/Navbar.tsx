@@ -10,6 +10,7 @@ export default function Navbar() {
         <Link href="/features">Features</Link>
         <Link href="/pricing">Pricing</Link>
         <Link href="/contact">Contact</Link>
+        <Link href="/about us">About Us</Link>
       </div>
     </nav>
   );

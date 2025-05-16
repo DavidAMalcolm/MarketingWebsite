@@ -30,7 +30,7 @@ const rawPosts = [
   },
   {
     _id: "Scheduling-Features",
-    title: "Sheduling Features",
+    title: "Scheduling Features",
     description: "Schedule appointments with unversity staff for personal or academic support.",
     date: "2025-04-14",
     image: "/images/arpita_orientation.jpg",

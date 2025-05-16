@@ -33,4 +33,8 @@ export const links = [
     url: '/contact',
     linkTo: 'Contact',
   },
+  {
+    url: '/about',
+    linkTo: 'About Us',
+  }
 ];
