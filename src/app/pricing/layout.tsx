@@ -19,7 +19,6 @@ export default function PricingLayout({ children }: { children: React.ReactNode 
         attribute="class"
         defaultTheme="dark"
         enableSystem
-        disableTransitionOnChange
       >
         <main className={inter.className}>{children}</main>
       </ThemeProvider>
